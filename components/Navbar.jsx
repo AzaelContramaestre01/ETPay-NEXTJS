@@ -4,7 +4,6 @@ import {motion} from 'framer-motion';
 import styles from '../styles';
 import {navVariants} from '../utils/motion';
 
-// Create aa function that consoles.log 'get early access' when the button is clicked
 const getEarlyAccess = () => {
   console.log('get early access');
 };
