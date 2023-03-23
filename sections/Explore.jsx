@@ -5,7 +5,7 @@ import {motion} from 'framer-motion';
 import styles from '../styles';
 import {about} from '../constants';
 import {staggerContainer} from '../utils/motion';
-import {Features} from '../components';
+import {Features} from '../components/index.ts';
 
 const Explore = () => (
   <section className={`${styles.paddings}`} id="explore">

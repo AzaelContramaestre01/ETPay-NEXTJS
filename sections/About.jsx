@@ -4,7 +4,7 @@ import {motion} from 'framer-motion';
 
 import styles from '../styles';
 import {about} from '../constants';
-import {Features} from '../components';
+import {Features} from '../components/index.ts';
 import {fadeIn, staggerContainer} from '../utils/motion';
 
 const About = () => (
